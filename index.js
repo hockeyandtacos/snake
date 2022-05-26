@@ -16,4 +16,4 @@ app.get('/', (req, res) => {
     )
 })
 
-app.listen(prosses.env.PORT || port, () => console.log(`availibe at http://localhost:${port}`))
+app.listen(process.env.PORT || port, () => console.log(`availibe at http://localhost:${port}`))

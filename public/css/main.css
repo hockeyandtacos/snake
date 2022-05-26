@@ -12,7 +12,7 @@ h1, h2, h3 {
 }
 
 #game-board {
-    background-color: #ccc;
+    background-color: #1f1f1f;
     width: 100vmin;
     height: 100vmin;
     display: grid;
@@ -20,10 +20,12 @@ h1, h2, h3 {
     grid-template-columns: repeat(21, 1fr);
 }
 .snake {
-    background-color: hsl(200, 100%, 50%);
+    background-color: #663dff;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
     border: .25vmin solid black;
 }
 .food {
-    background-color: hsl(50, 100%, 50%);
+    background-color: #faa499;
+    background-image: linear-gradient(319deg, #faa499 0%, #f7dd85 37%, #ffc55c 100%);
     border: .25vmin solid black;
 }
